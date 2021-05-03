@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <script src="hw.js"></script>
+</head>
+<body onload="text()">
+
+    <div>
+    <P id="txt"></P>
+   </div>
+<button onclick="hey('greet');" type="button">This is the First assignment</button>
+<p id="demi"></p>
+
+<p> Here the radius of circle is 20cm </p>  
+<br>
+<p> 
+Click the following button to get the area and perimeter of circle.  
+</p>  
+<p id = "para"></p>  
+<p id = "para1"></p>
+
+<button onclick="fun()" type="button">Hello</button>
+
+<script>
+    //Q4- Write a Javascript program that will calculate the area and perimeter of a rectangle and display it to thr user using DOM
+
+var r = 20;  
+function fun()  
+{  
+document.getElementById('para').innerHTML = 'The area of circle with radius 20cm is: ' + Math.PI * r * r ;  
+document.getElementById('para1').innerHTML = 'The perimeter of circle with radius 20cm is: ' + 2 * Math.PI * r ;    
+} 
+ 
+</script>
+</body>
+</html>
